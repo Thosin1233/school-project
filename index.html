@@ -5,9 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Min Sida</title>
     <style>
+        body{
+            background-color: #333;
+            color: whitesmoke;
+            
+        }
         h1{
             text-align: center;
-            font-size: 80px;
+            font-size: 60px;
+            color: whitesmoke;
+            
+        }
+        h2{
+            text-align: center;
+            font-size: 40px;
+            color: whitesmoke;
         }
         .links{
             display: flex;
@@ -15,18 +27,74 @@
             gap: 10px;
             font-size: 25px;
         }
+        p{
+            font-size: 22px;
+            color: whitesmoke;
+            padding-left: 120px;
+            padding-right: 120px;
+        }
+        .minaintressen{
+            font-size: 22px;
+            color: whitesmoke;
+            padding-left: 120px;
+            padding-right: 120px;
+        }
+        img{
+            display: flex;
+            align-items: center;
+        }
+
     </style>
 </head>
+
 <body>
     <h1>Välkommen till min sida</h1>
     <nav class="links">
         <a href="index.html">Hem</a>
         <a href="photos.html">Fotoalbum</a>
     </nav>
-    <div class="bild1">
-        <picture></picture>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus arcu at augue convallis luctus. Nulla facilisi. Ut mattis tempus velit, non fringilla purus tristique in. Fusce auctor in nisl nec faucibus. Proin posuere nulla turpis, ut feugiat justo commodo ac. Nam quis tincidunt neque. Fusce posuere diam vitae bibendum gravida. Proin ac nunc lacinia lorem tincidunt rhoncus a eget metus. Vivamus sodales urna porta tincidunt molestie. Proin convallis velit quis lacus vulputate, eu finibus arcu semp</p>
+    <div style=" display: flex; flex-direction: column; align-items: center; text-align: center; margin-bottom:;">
+        <video width="640" height="360" controls autoplay loop muted>
+            <source src="videos/frogvideo.mp4" type="video/mp4">
+            
+        </video>
+        <p style="color: #f23d3dc9;">VARNING FÖR HÖGT LJUD</p>
     </div>
 
+    <div class="minaintressen">
+        <h2>Mina intressen</h2>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus arcu at augue convallis luctus. Nulla facilisi. Ut mattis tempus velit, non fringilla purus tristique in. Fusce auctor in nisl nec faucibus. Proin posuere nulla turpis, ut feugiat justo commodo ac. Nam quis tincidunt neque. Fusce posuere diam vitae bibendum gravida. Proin ac nunc lacinia lorem tincidunt rhoncus a eget metus. Vivamus sodales urna porta tincidunt molestie. Proin convallis velit quis lacus vulputate, eu finibus arcu semp
+        <ul>
+            <li>Bananer</li>
+            <li>Äpplen</li>
+            <li>Päron</li>
+        </ul>
+        <h2>Favoritserier</h2>
+        <table>
+            <tr>
+                <th style="width: 100%; text-align: start; margin: 10px;">Serie</th>
+                <th>IMDB</th>
+            </tr>
+            <tr>
+                <td>Breaking Bad</td>
+                <td>9.5</td>
+            </tr>
+            <tr>
+                <td>Game of Thrones</td>
+                <td>9.2</td>
+            </tr>
+            <tr>
+                <td>Stranger Things</td>
+                <td>8.7</td>
+            </tr>
+            <tr>
+                <td>The Boys</td>
+                <td>8.6</td>
+            </tr>                
+        </table>
+    </div>
 </body>
 <footer>
         <p style="font-size: 24px; text-align: center;"> Awsam Kamil</p>
